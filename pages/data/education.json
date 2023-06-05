@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "B.Sc In Mechanical Engineering",
+      "school": "Bangladesh University of Engineering and Technology",
+      "year": "2022-2026"
+    },
+    {
+        "id": 2,
+        "name": "H.S.C.",
+        "school": "Rajshahi College, Rajshahi, Bangladesh",
+        "year": "2018-2020"
+    },
+    {
+        "id": 3,
+        "name": "S.S.C",
+        "school": "Agrani School and College, Rajshahi, Bangladesh",
+        "year": "2016-2018"
+    },
+    {
+        "id": 4,
+        "name": "Primary School",
+        "school": "Preston Street Primary School, Edinburgh, Scotland",
+        "year": "2010-2015"
+    }
+  ]
+  
