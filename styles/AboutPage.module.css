@@ -1,7 +1,13 @@
+.about {
+    font-size: small;
+}
+
+
 .div_about {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
+    font-size: small;
 }
 
 .div_research {
@@ -28,3 +34,32 @@
     right: 20px;
     padding-left: 20px;
 }
+
+.research_tag_orange {
+    background-color: orangered;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.research_tag_green {
+    background-color: green;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.research_tag_blue {
+    background-color: blue;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.tags_divide {
+    display: flex;
+}
+

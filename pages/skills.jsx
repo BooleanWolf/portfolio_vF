@@ -1,10 +1,10 @@
 import styles from '../styles/AboutPage.module.css'
 import { getEducations } from './api/education';
 
-const AboutPage = ({ educations }) => {
+const SkillsPage = ({ educations }) => {
   return (
     <div className={styles.about}>
-      <h2>A Little Bit About Me</h2>
+      <h2>Skills</h2>
 
       <div className={styles.div_about}>
         <p>I am MD Tamim Sarkar. I am passionate in Robotics and Artificial Intelligence. I try to build</p>
@@ -70,4 +70,4 @@ export async function getStaticProps() {
   };
 }
 
-export default AboutPage;
+export default SkillsPage;

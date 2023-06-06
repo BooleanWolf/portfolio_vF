@@ -51,7 +51,7 @@ const GithubPage = ({ repos, user }) => {
 
 export async function getStaticProps() {
   const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
+    `https://api.github.com/users/BooleanWolf`,
     {
       headers: {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
@@ -61,7 +61,7 @@ export async function getStaticProps() {
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
+    `https://api.github.com/users/BooleanWolf/repos?per_page=100`,
     {
       headers: {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,

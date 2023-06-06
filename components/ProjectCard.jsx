@@ -7,6 +7,7 @@ const ProjectCard = ({ project }) => {
       <Image src={project.image} height={300} width={600} alt={project.name} />
       <div className={styles.content}>
         <h3>{project.name}</h3>
+        <h4>Field</h4>
         <p>{project.description}</p>
         <div className={styles.tags}>
           {project.tags.map((tag) => (

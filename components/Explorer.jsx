@@ -25,14 +25,34 @@ const explorerItems = [
     path: '/projects',
     icon: 'js_icon.svg',
   },
+  // {
+  //   name: 'articles.json',
+  //   path: '/articles',
+  //   icon: 'json_icon.svg',
+  // },
+  // {
+  //   name: 'github.md',
+  //   path: '/github',
+  //   icon: 'markdown_icon.svg',
+  // },
   {
-    name: 'articles.json',
-    path: '/articles',
-    icon: 'json_icon.svg',
+    name: 'research.py',
+    path: '/research',
+    icon: 'markdown_icon.svg',
   },
   {
-    name: 'github.md',
-    path: '/github',
+    name: 'courses.cpp',
+    path: '/about',
+    icon: 'markdown_icon.svg',
+  },
+  {
+    name: 'awards.c',
+    path: '/about',
+    icon: 'markdown_icon.svg',
+  },
+  {
+    name: 'skills.java',
+    path: '/about',
     icon: 'markdown_icon.svg',
   },
 ];
