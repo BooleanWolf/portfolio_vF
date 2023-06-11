@@ -4,7 +4,7 @@ import { getEducations } from './api/education';
 const AboutPage = ({ educations }) => {
   return (
     <div className={styles.about}>
-      <h2>A Little Bit About Me</h2>
+      <h1>A Little Bit About Me</h1>
 
       <div className={styles.div_about}>
         <p>I am MD Tamim Sarkar. I am passionate in Robotics and Artificial Intelligence. I try to build</p>

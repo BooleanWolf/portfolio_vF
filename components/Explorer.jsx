@@ -38,7 +38,7 @@ const explorerItems = [
   {
     name: 'research.py',
     path: '/research',
-    icon: 'markdown_icon.svg',
+    icon: 'python_icon.svg',
   },
   {
     name: 'courses.cpp',
